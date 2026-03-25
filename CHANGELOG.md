@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Initial OSS package restructuring and preparation.
 - Renamed from `transferable-uiux-pattern-engine` to `Pattern Foundry`.
+- Added Claude marketplace distribution manifests (`.claude-plugin/marketplace.json`, `plugins/pattern-foundry/.claude-plugin/plugin.json`).
+- Added installable marketplace skill package at `plugins/pattern-foundry/skills/pattern-foundry/SKILL.md`.
+- Clarified README installation and Quick Start flows for Claude Code usage.
+- Updated README Star History chart embed to a reliable endpoint.
 
 ## [0.1.0] - 2026-03-25
 ### Added
