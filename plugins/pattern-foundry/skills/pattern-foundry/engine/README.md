@@ -34,9 +34,12 @@ transferable-uiux-pattern-engine/
 ## How to Use This Skill
 This engine is designed to be **transferable**. You can use the `tokens.json` file to bootstrap a new project with high-performance design primitives, then adapt them to your own brand identity in any modern web framework (Tailwind, Framer Motion, etc.).
 
+### Samples
+- `samples/react/`: Neutral component primitives wired up in React for rapid prototyping.
+
 ### Example: Tailwind Integration
 The `docs/` folder contains specific implementation notes for Tailwind CSS, allowing you to quickly map these verified styles to a modern utility-first workflow.
 
 ---
-**Verified Data Source:** Playwright Live Inspection (2026-03-24)
+**Design Source:** Curated manual audit snapshot (2026-03-24)
 **Engine Version:** 0.2.1

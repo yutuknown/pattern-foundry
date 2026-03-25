@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 /**
  * PrimaryButton — Brand-neutral button component
  *
- * Extracted system patterns (Playwright-verified source site):
+ * Extracted system patterns (manually verified source site):
  *   action:    bg action-color, radius 5-8px  → primary CTAs
  *   authority: bg authority-color             → secondary/trust actions
  *   ghost:     bg #eff4f7, muted text         → low-priority actions

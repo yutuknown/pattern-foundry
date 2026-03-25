@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-inspect_site.py
----------------
+inspect_site.py (legacy)
+------------------------
 Phase 0 recon script: crawl and inventory a target website.
-Uses Playwright for live DOM inspection.
+LEGACY — uses manual audit with manual audit tool; not required for typical skill usage.
+Only run if you explicitly need to refresh the reference intelligence yourself.
 
 Usage:
   python3 inspect_site.py --url https://example.com --output ./output

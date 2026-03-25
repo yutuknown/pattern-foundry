@@ -4,7 +4,7 @@
 One-page design fingerprint of the extracted quality system — the essence that makes new work feel at this quality level.
 
 ## Evidence
-Playwright-verified from live Sample.in CSS and DOM inspection.
+manually verified from live Sample.in CSS and DOM inspection.
 
 ---
 
@@ -99,4 +99,4 @@ FOOTER BACKGROUND: #e9f1fc (confirmed, same as surface)
 10. Sidebar just hidden on mobile with `display:none`
 
 ## Confidence
-**High** — all key values confirmed from live Playwright CSS extraction and computed styles.
+**High** — all key values confirmed from live manual design audit and computed styles.

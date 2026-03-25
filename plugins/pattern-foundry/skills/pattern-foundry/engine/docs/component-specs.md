@@ -2,7 +2,7 @@
   ANALYSIS DOC — Component Evidence from Reference Site
   -------------------------------------------------------
   This file documents component measurements observed in the reference site
-  via Playwright. Values are used as source-of-truth for the token system.
+  via manual audit. Values are used as source-of-truth for the token system.
   Do not copy branded component names or branded copy into new implementations.
   Use samples/react/ for neutral component implementations.
 -->
@@ -18,7 +18,7 @@ The Sample Component Library is built for high-trust conversions. It balances fr
 - **Google Integration:** A dedicated button style for Google login that maintains the brand's rounded aesthetic while adhering to Google's branding.
 - **Feature Cards:** Use a 20px radius and vibrant 135deg linear gradients to differentiate specific learning modes (Notes, Tests, etc.).
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Course Card (.crses):** Radius 32px, Shadow `rgba(229,229,229,0.25) 1px 1px 60px 40px`.
 - **Feature Card:** Radius 20px, Gradient `linear-gradient(135deg, #ff9a1f 0px, #f97316 100%)`.
 - **Action Button (Submit):** BG #193f68, White text, Radius 5px, Padding 6px 12px.

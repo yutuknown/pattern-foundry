@@ -7,7 +7,7 @@ This checklist governs the next Pattern Foundry release. Reset all checkboxes fo
 - [ ] Ensure all Python scripts (`inspect_site.py`, `extract_tokens.py`, etc.) run without throwing unhandled exceptions.
 - [ ] Verify that `design-system/tokens.json` parses correctly.
 - [ ] Run a brand-leakage scan across `samples/` and `templates/` to ensure no source site naming remains.
-- [ ] Confirm `.gitignore` excludes `.claude/settings.local.json`, `node_modules`, `__pycache__`, raw Playwright extraction data, and `.agent/`.
+- [ ] Confirm `.gitignore` excludes `.claude/settings.local.json`, `node_modules`, `__pycache__`, raw manual audit data, and `.agent/`.
 - [ ] Confirm README + assets (`assets/readme/*`) reflect current workflows and diagrams.
 - [ ] Verify all docs under `docs/audits/` and `docs/releases/` reference current paths/version numbers.
 

@@ -6,7 +6,7 @@
   <h1>Pattern Foundry</h1>
 
   <p>
-    <strong>A Claude Code skill for extracting transferable UI/UX design DNA from a reference site and reusing it for original brands and templates.</strong>
+    <strong>A Claude Code skill for distilling transferable UI/UX design DNA from a curated reference system and reusing it for original brands and templates.</strong>
   </p>
 
   <p>
@@ -29,7 +29,7 @@ Instead of copying colors and logos, this skill extracts the *quality system*—
 
 ## What it does
 
-- **Extracts Visual DNA:** Reverses CSS rules into semantic design tokens.
+- **Distills Visual DNA:** Translates curated reference observations into semantic design tokens.
 - **Separates Identity from System:** Distinguishes between what is proprietary (logos, exact copy) and what is transferable (fluid typography, bimodal radii, trust signal sequencing).
 - **Generates Reusable Systems:** Packages findings into a persisted `MASTER.md` design system.
 - **Supports Original Generation:** Builds fresh, premium sites for new brands using the extracted intelligence.
@@ -46,7 +46,7 @@ Instead of copying colors and logos, this skill extracts the *quality system*—
 - **Brand adaptation rules:** Shifts temperature, density, and tone to fit new industries (B2B, Healthcare, Fintech, etc.).
 - **Anti-copy guardrails:** Strictly enforces originality to prevent source-brand leakage.
 - **Sample outputs:** React and Tailwind CSS scaffolding ready for production.
-- **Helper scripts:** Python automation for extraction, design-system builds, and validations.
+- **Helper scripts:** Python automation for legacy extraction, design-system builds, and validations.
 
 ## Repo structure
 
@@ -59,7 +59,7 @@ pattern-foundry/
 │   └── releases/        # Release notes, checklist, ship guide
 ├── scripts/             # Sync/verify automation
 ├── data/
-│   ├── raw/             # Raw Playwright extraction JSONs (gitignored)
+│   ├── raw/             # Legacy extraction JSONs (gitignored)
 │   └── screenshots/     # Reference site visual captures
 └── assets/readme/       # Banner + workflow diagrams used below
 ```
@@ -76,7 +76,7 @@ pattern-foundry/
 ### Prerequisites
 - [Claude Code](https://code.claude.com/docs/en/overview) installed and authenticated.
 - Python 3.9+ (if running extraction scripts).
-- Playwright (if running extraction scripts).
+- manual audit (legacy extraction scripts only).
 
 ### Install in Claude Code (2 commands)
 
@@ -97,7 +97,7 @@ Using pattern-foundry [NEW_BRAND_MODE]:
 ### Local setup
 
 ```bash
-# (Optional) If you want to run extraction scripts:
+# (Optional) If you want to run the legacy extraction scripts:
 python -m pip install playwright
 python -m playwright install chromium
 ```
@@ -185,7 +185,7 @@ Provide an upgraded spec.
 1. **Load bundled references (default):** Claude reads packaged mode contracts and design-system files shipped with the plugin.
 2. **Abstract:** The system applies transferable rules (e.g., "Hover states must lift physically using `translateY(-3px)`" instead of fixed brand styling).
 3. **Generate:** Claude uses `SKILL.md` + `MASTER.md` guidance to produce original outputs for your target brand.
-4. **Maintain (maintainers only):** Optional Playwright extraction scripts can refresh source intelligence before a release sync.
+4. **Maintain (maintainers only):** Optional legacy extraction scripts can refresh source intelligence before a release sync.
 
 ## Use cases
 
@@ -263,5 +263,5 @@ To publish marketplace-ready changes, follow [SHIP_UPDATE_GUIDE.md](docs/release
 ## Acknowledgements
 
 - Built with [Claude Code](https://code.claude.com/docs/en/overview).
-- Extraction layer powered by [Playwright](https://playwright.dev/).
+- Legacy extraction tooling powered by [manual audit](https://playwright.dev/).
 - Inspired by [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), adapted for a single-site transfer-learning workflow.

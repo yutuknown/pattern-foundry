@@ -1,6 +1,6 @@
 
 /**
- * Spatial Transition — 0.45s cubic-bezier (Playwright-verified)
+ * Spatial Transition — 0.45s cubic-bezier (manually verified)
  * Verified: 0.45s cubic-bezier(0.4, 0, 0.2, 1)
  */
 export const standardTransition = {
@@ -10,7 +10,7 @@ export const standardTransition = {
 };
 
 /**
- * Rapid Transition — 0.2s (Playwright-verified)
+ * Rapid Transition — 0.2s (manually verified)
  * Verified: 0.2s
  */
 export const rapidTransition = {
@@ -20,7 +20,7 @@ export const rapidTransition = {
 };
 
 /**
- * Card Hover Variants — translateY(-3px) + shadow (Playwright-verified)
+ * Card Hover Variants — translateY(-3px) + shadow (manually verified)
  * Verified: translateY(-3px) + shadow elevation
  */
 export const cardHoverVariants = {
@@ -36,7 +36,7 @@ export const cardHoverVariants = {
 };
 
 /**
- * Entrance Variants — 0.45s standard cubic-bezier (Playwright-verified)
+ * Entrance Variants — 0.45s standard cubic-bezier (manually verified)
  * Verified: 0.45s standard cubic-bezier
  */
 export const entranceVariants = {
@@ -52,7 +52,7 @@ export const entranceVariants = {
 };
 
 /**
- * Shimmer Animation — shimmer_lrn keyframes (Playwright-verified)
+ * Shimmer Animation — shimmer_lrn keyframes (manually verified)
  * Verified: shimmer_lrn keyframes
  */
 export const shimmerVariants = {

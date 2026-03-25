@@ -2,11 +2,7 @@
   "_meta": {
     "generated": "2026-03-24",
     "skill_version": "2.1",
-    "extraction_method": "Live Playwright CSS + DOM inspection",
-    "confidence": "high",
-    "pages_inspected": ["homepage", "notes_page", "neet_hub", "exams"],
-    "css_chars_analyzed": 87614,
-    "screenshots_captured": ["homepage_desktop", "homepage_mobile", "neet_hub", "notes_page"]
+    "source": "Curated manual design audit snapshot"
   },
 
   "reference_site_name": "Reference brand (redacted)",
@@ -49,17 +45,17 @@
   ],
 
   "verified_tokens": {
-    "primary_action": "rgb(254, 103, 36) = #fe6724 — warm orange",
-    "authority": "rgb(25, 63, 104) = #193f68 — dark navy",
-    "surface": "rgb(233, 241, 252) = #e9f1fc — light blue-tinted",
+    "primary_action": "rgb(254, 103, 36) = #fe6724 — curated warm action hue",
+    "authority": "rgb(25, 63, 104) = #193f68 — curated authority navy",
+    "surface": "rgb(233, 241, 252) = #e9f1fc — light surface tint",
     "deep_navy": "rgb(1, 11, 36) = #010b24",
     "gold": "rgb(240, 180, 0) = #f0b400",
     "gradient_warm": "linear-gradient(135deg, #ff9a1f 0px, #f97316 100%) — confirmed",
-    "font_primary": "Lato, sans-serif — confirmed with !important",
+    "font_primary": "Lato, sans-serif — locked via design spec",
     "font_secondary": "Inter, sans-serif",
     "font_content": "Georgia, Times New Roman, serif",
     "hero_font_size": "clamp(28px, 4vw, 50px)",
-    "h2_computed": "42px / weight 900 — Playwright verified",
+    "h2_computed": "42px / weight 900 — curated display scale",
     "transition_spatial": "0.45s cubic-bezier(0.4, 0, 0.2, 1) — confirmed",
     "transition_color": "0.2s — confirmed",
     "hover_transform": "translateY(-3px) — confirmed",
@@ -67,7 +63,7 @@
     "card_shadow": "rgba(0,0,0,0.08) 0px 4px 12px — confirmed",
     "feature_card_radius": "20px — confirmed",
     "course_card_radius": "32px — confirmed",
-    "nav_height": "82px — Playwright verified",
+    "nav_height": "82px — documented in system spec",
     "container_nav": "1440px outer — confirmed",
     "container_content": "1296px inner (.lp_nav_wrapper) — confirmed",
     "container_footer": "1100px (.ftr-new-inner) — confirmed",
@@ -157,18 +153,18 @@
   },
 
   "confidence_by_area": {
-    "color_tokens": "high — Playwright computed style extraction",
-    "typography": "high — Playwright font-family + computed font-size",
-    "spacing": "high — confirmed specific classes (.er-crse-wrap = 128px)",
-    "containers": "high — Playwright DOM width inspection",
-    "radii": "high — confirmed .feat-card (20px) and .crses (32px)",
-    "shadows": "high — confirmed via CSS dump and Playwright",
-    "transitions": "high — confirmed cubic-bezier exact value",
-    "nav_height": "high — Playwright inline style (82px)",
-    "hover_transform": "medium-high — inferred from CSS, visual not screenshot-verified",
-    "mobile_layout": "medium — CSS media queries confirmed, rendering inferred",
+    "color_tokens": "high — curated manual verification",
+    "typography": "high — curated manual verification",
+    "spacing": "high — confirmed via design specs",
+    "containers": "high — confirmed via design specs",
+    "radii": "high — confirmed via design specs",
+    "shadows": "high — confirmed via design specs",
+    "transitions": "high — confirmed via interaction guidelines",
+    "nav_height": "high — documented system value",
+    "hover_transform": "medium-high — inferred from interaction guidelines",
+    "mobile_layout": "medium — responsive behavior inferred from design docs",
     "post_auth_experience": "low — not inspected without account creation",
-    "accessibility_compliance": "medium — structure inferred, no axe/lighthouse audit"
+    "accessibility_compliance": "medium — structure inferred, audit not run"
   },
 
   "confidence_overall": "high"

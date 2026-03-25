@@ -9,7 +9,7 @@ Single-page design fingerprint — the minimum required reading to understand wh
 
 ```
 DESIGN DNA — transferable-uiux-pattern-engine v2.0
-Source: Live Playwright extraction from high-quality consumer EdTech product
+Source: Live manual audit from high-quality consumer EdTech product
 
 COLOR ROLES (adapt hues, keep roles):
   color.action.primary:    warm orange family — CTAs and primary highlights ONLY

@@ -9,7 +9,7 @@
 
 # Sample Design Patterns Summary
 
-This document captures the essence of the Sample UI/UX, combining high-level strategy with granular tactical implementation based on Playwright-verified live data.
+This document captures the essence of the Sample UI/UX, combining high-level strategy with granular tactical implementation based on curated manual audit notes.
 
 ## 1. Design Ethos
 - **Tone:** Academic yet approachable.

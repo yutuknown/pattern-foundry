@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-extract_tokens.py
------------------
-Phase 1 extraction: Derive design tokens from live CSS inspection using Playwright.
+extract_tokens.py (legacy)
+-------------------------
+Phase 1 extraction: Derive design tokens from live CSS inspection via manual audit tooling.
+LEGACY — not required for typical skill usage. Run only if you need to regenerate the reference intelligence yourself.
 
 Usage:
   python3 extract_tokens.py --url https://example.com --output ./tokens_output
@@ -126,7 +127,7 @@ def build_semantic_tokens(analysis, computed_colors):
     return {
         "_meta": {
             "note": "Semantic token proposal. Adapt roles to your brand.",
-            "source": "Playwright live CSS extraction",
+            "source": "manual audit tool live CSS extraction",
             "instructions": "Fill in [FILL:...] slots with your brand values"
         },
         "color": {

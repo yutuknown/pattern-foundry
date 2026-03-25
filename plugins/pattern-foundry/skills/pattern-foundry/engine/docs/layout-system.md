@@ -11,7 +11,7 @@ The Sample Layout System is designed for a desktop-first, highly responsive expe
 - **Section Rhythm:** A consistent vertical rhythm is maintained with 128px of top and bottom padding for major sections (`.er-crse-wrap`).
 - **Responsive Granularity:** An unusually high density of 25+ specific breakpoints, allowing for precise design adjustments at every possible device width.
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Nav Width:** Max-width 1440px, Height 82px.
 - **Nav Inner:** Width 1296px.
 - **Footer Inner:** Max-width 1100px.

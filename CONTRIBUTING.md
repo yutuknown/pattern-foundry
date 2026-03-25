@@ -5,7 +5,7 @@ Thank you for your interest in contributing to **Pattern Foundry**! This project
 ## How to Contribute
 
 We welcome contributions in the following areas:
-- Enhancing the Python extraction scripts (Playwright).
+- Enhancing the Python extraction scripts (manual audit).
 - Expanding the reusable component libraries (React, Vue, Svelte).
 - Adding new industry-specific brand adaptation guidelines.
 - Improving accessibility standards in the output templates.
@@ -15,7 +15,7 @@ We welcome contributions in the following areas:
 
 1. Fork the repository and clone your fork locally.
 2. Ensure you have Python 3.9+ installed.
-3. Install Playwright dependencies if you are modifying extraction scripts:
+3. Install manual audit dependencies if you are modifying extraction scripts:
    ```bash
    python -m pip install playwright
    python -m playwright install chromium

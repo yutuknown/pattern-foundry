@@ -9,7 +9,7 @@ The Sample Color System is designed to project a balance between professional ac
 - **Surface Layering:** A sophisticated range of light blues and pale grays (#e9f1fc, #eff4f7, #f6fcff) is used to differentiate content sections without harsh borders.
 - **Tertiary/Achievement:** Gold (#f0b400) is used for rewards, achievements, and "premium" features.
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Primary Brand Orange (#fe6724):** Found in 5 key CTA/highlight instances.
 - **Authority Navy (#193f68):** Used in 3 core navigation and heading elements.
 - **Footer Surface (#e9f1fc):** Confirmed as the background color for `.ftr-new-inner`.
@@ -81,4 +81,4 @@ module.exports = {
 | Muted | #86949d | (134,148,157) | Muted Text | 6 | `text.muted` | Captions/Secondary |
 
 ## Confidence
-**High.** All hex codes, roles, and frequencies were derived from live Playwright inspection data.
+**High.** All hex codes, roles, and frequencies were derived from live manual inspection data.

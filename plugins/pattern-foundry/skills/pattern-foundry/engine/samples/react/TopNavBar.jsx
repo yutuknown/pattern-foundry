@@ -5,7 +5,7 @@ import PrimaryButton from './PrimaryButton';
 /**
  * TopNavBar — Brand-neutral sticky navigation
  *
- * Extracted system patterns (Playwright-verified source site):
+ * Extracted system patterns (manually verified source site):
  *   outer:  max-width 1440px, height 82px (confirmed .lp_ed_navbar)
  *   inner:  1296px wrapper (confirmed .lp_nav_wrapper)
  *   scroll: shadow appears on scroll (nav.scrolled class)

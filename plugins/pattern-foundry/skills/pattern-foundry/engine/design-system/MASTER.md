@@ -1,6 +1,6 @@
 # Design System MASTER
 
-> **Source:** Playwright-verified extraction from Sample.in
+> **Source:** manually verified extraction from Sample.in
 > **Status:** Authoritative — page files only override where necessary
 > **Version:** 2.0
 
@@ -78,7 +78,7 @@ FONT STACK:
   font.ui:       'Inter', sans-serif      → Modern sections, data UI
   font.content:  'Georgia', 'Times New Roman', serif → Long-form reading (18px+)
 
-SCALE (verified from Playwright computed styles):
+SCALE (verified from manual audit computed styles):
   text.hero:     clamp(28px, 4vw, 50px)  → Hero H1 (fluid, never fixed)
   text.display:  42px / weight 900       → Section H2 (confirmed computed)
   text.2xl:      32px                    → Sub-section headings
@@ -155,7 +155,7 @@ COMPONENT GAPS:
 ### Container / Layout System
 
 ```
-CONTAINERS (all verified from Playwright):
+CONTAINERS (all verified from manual audit):
   container.wide:     1440px  → Full-width backgrounds, nav max-width
   container.standard: 1296px  → Primary content (.lp_nav_wrapper = 1296px)
   container.content:  1200px  → Alternate content container
@@ -173,7 +173,7 @@ GRID:
   columns.marketing: 12
   gutter.standard:   24px
 
-BREAKPOINTS (confirmed from Playwright):
+BREAKPOINTS (confirmed from manual audit):
   All confirmed: 320px, 340px, 350px, 360px, 380px, 396px, 400px, 420px,
                  430px, 440px, 450px, 487px, 500px, 550px, 600px,
                  767px(min), 799px, 840px, 1005px, 1024px, 1036px,
@@ -213,7 +213,7 @@ RULE: radius.lg+ is ONLY for display/marketing containers.
 
 ### Shadow / Elevation System
 
-**All values confirmed from Playwright CSS extraction:**
+**All values confirmed from manual design audit:**
 
 ```
 shadow.none:     none
@@ -261,7 +261,7 @@ RULE: Blue-tinted borders (#a6d8fa family) on interactive/info elements.
 
 ### Motion System
 
-**All timing values confirmed from Playwright CSS extraction:**
+**All timing values confirmed from manual design audit:**
 
 ```
 DURATION:

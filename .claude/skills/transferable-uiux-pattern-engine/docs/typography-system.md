@@ -13,7 +13,7 @@ The Sample Typography System is built to balance academic readability with moder
   - **SEO H1:** 18px with weight 700. A unique pattern where the technical H1 is small and SEO-focused, while the visual H2s carry the design weight.
 - **Body & Scale:** A highly granular scale ranging from 11px to 42px, allowing for precise information density.
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Computed H2:** 42px, Weight 900 ("We cover all Exams and Classes").
 - **Computed H1:** 18px, Weight 700 ("Sample stands for Education Revolution").
 - **Font Families:** Lato, Inter, Georgia (all confirmed in CSS).

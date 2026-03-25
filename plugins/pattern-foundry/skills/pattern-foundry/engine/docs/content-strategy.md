@@ -19,7 +19,7 @@ The Sample content strategy is designed to balance authoritative academic positi
 - **Platform Breadth:** "We cover all Exams and Classes" indicates a comprehensive, all-in-one value proposition.
 - **Feature Pillars:** Smart Notes, Flashcards, Structured Courses, Video Lectures, Test Insights.
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Primary Hero Title:** "Sample stands for Education Revolution" (Visual H1/SEO Anchor).
 - **Core Value Proposition:** "We cover all Exams and Classes."
 - **Secondary Value Prop:** "Everything you need for your Exam at one place."

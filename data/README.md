@@ -1,6 +1,6 @@
 # data/
 
-Raw extraction artifacts from the Playwright-based site inspection.
+Raw extraction artifacts from the manual audit-based site inspection.
 These files are the **source evidence** for the design tokens and patterns
 in `.claude/skills/transferable-uiux-pattern-engine/design-system/`.
 

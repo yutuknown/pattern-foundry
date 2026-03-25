@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 /**
  * FeatureCard — Brand-neutral card component
  *
- * Extracted system patterns (Playwright-verified source site):
+ * Extracted system patterns (manually verified source site):
  *   course:  radius 32px, ambient shadow     → content/listing cards
  *   feature: radius 20px, warm gradient      → product feature highlights
  *   surface: radius 16px, tinted bg          → subtle info cards

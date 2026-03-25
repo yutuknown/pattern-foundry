@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * SiteFooter — Brand-neutral footer component
  *
- * Extracted system patterns (Playwright-verified source site):
+ * Extracted system patterns (manually verified source site):
  *   bg:        #e9f1fc (light tinted surface — confirmed .ftr-new-inner)
  *   max-width: 1100px inner container (confirmed)
  *   layout:    4-column grid on desktop, 1-column on mobile

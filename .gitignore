@@ -1,4 +1,4 @@
-# ─── Playwright raw extraction artifacts (re-generatable from scripts/) ───
+# ─── Legacy extraction artifacts (re-generatable from scripts/) ───
 data/raw/all_css.txt
 data/raw/playwright_data.json
 data/raw/colors_deep.json
@@ -7,7 +7,7 @@ data/raw/deep_extract.json
 # Keep screenshots in git (visual evidence, not huge)
 # data/screenshots/ is committed intentionally
 
-# ─── Original scrape dump (Playwright network capture) ────────────────────
+# ─── Legacy scrape dumps ────────────────────────────────────────────────────
 output/
 
 # ─── Python cache ─────────────────────────────────────────────────────────

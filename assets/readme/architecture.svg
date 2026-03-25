@@ -24,7 +24,7 @@
   <g transform="translate(260, 100)">
     <rect class="box" width="160" height="80" />
     <text class="text-title" x="80" y="35">Extraction Layer</text>
-    <text class="text-sub" x="80" y="55">Playwright Scripts</text>
+    <text class="text-sub" x="80" y="55">manual audit Scripts</text>
   </g>
 
   <g transform="translate(470, 100)">

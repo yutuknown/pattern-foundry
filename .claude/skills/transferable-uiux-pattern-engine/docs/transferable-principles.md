@@ -4,7 +4,7 @@
 Abstract, brand-neutral principles extracted from Sample — usable for ANY industry, ANY product, ANY visual style.
 
 ## Evidence
-Derived from 4-page Playwright inspection + live CSS extraction.
+Derived from 4-page manual inspection + live CSS extraction.
 
 ---
 
@@ -49,7 +49,7 @@ Derived from 4-page Playwright inspection + live CSS extraction.
 
 ## P5: Bimodal Border Radius
 **The principle:** Use two radius scales: small for functional UI, large for display UI. The shape signals intent.
-**Evidence (Playwright):** Functional: 4px (.crses_tag), 5px (badges), 8px (auth modal). Display: 20px (feature cards), 32px (course cards), 60px (pill CTAs).
+**Evidence (manual audit):** Functional: 4px (.crses_tag), 5px (badges), 8px (auth modal). Display: 20px (feature cards), 32px (course cards), 60px (pill CTAs).
 **Application:** Any product interface. This principle works regardless of industry or brand.
 **Rule:** If it's a tool the user operates (input, dropdown, tag), use small radius. If it's a container the user looks at (card, feature block, course), use large radius.
 
@@ -57,7 +57,7 @@ Derived from 4-page Playwright inspection + live CSS extraction.
 
 ## P6: Physical Hover — Not Chromatic
 **The principle:** Interactive elements must move spatially on hover, not just change color.
-**Evidence (Playwright):** `transform: translateY(-3px)` + `box-shadow` increase on cards. Transition: 0.45s cubic-bezier(0.4,0,0.2,1).
+**Evidence (manual audit):** `transform: translateY(-3px)` + `box-shadow` increase on cards. Transition: 0.45s cubic-bezier(0.4,0,0.2,1).
 **Application:** Every card-based UI where cards are destinations.
 **Why physical:** Physical metaphor (lifting) is more universally understood than color shift. It works even for users with color vision deficiencies.
 **Rule:** Cards that are links must lift. The lift amount is 3px — enough to signal interactivity, subtle enough to not distract.

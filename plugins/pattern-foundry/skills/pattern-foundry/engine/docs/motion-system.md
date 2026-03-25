@@ -10,7 +10,7 @@ The Sample Motion System is designed to create a sense of responsiveness, depth,
 - **Micro-interactions:** A generic 0.3s `ease-in-out` is used as a fallback for standard UI elements.
 - **Visual Feedback:** Specialized shimmer keyframes (`shimmer_lrn`, `shimmer_lgou_floating`) for loading states and brand momentum.
 
-## Evidence (cite specific Playwright data)
+## Evidence (cite specific manual audit data)
 - **Cubic Bezier:** `0.45s cubic-bezier(0.4, 0, 0.2, 1)` — confirmed for spatial/card animations.
 - **Background Fast:** `background 0.2s` — confirmed for quick color feedback.
 - **Hover Shadow:** `transform 0.2s, box-shadow 0.2s` — confirmed for card interactions.

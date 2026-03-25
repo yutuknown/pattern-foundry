@@ -34,9 +34,9 @@ I did **not** find critical runtime breakage in the packaged plugin at audit tim
 **Why it matters:** Your stated goal is to generate new UI/UX from already-provided intelligence without scraping. Current docs still strongly emphasize crawl/inspect flow, which can mislead users and contributors.
 
 **Evidence:**
-- `README.md:44` — “Single-site deep inspection workflow: Live CSS and DOM analysis via Playwright.”
-- `README.md:178` — “Playwright scripts crawl the reference site...”
-- `plugins/pattern-foundry/skills/pattern-foundry/engine/README.md:7` — “extracted via live Playwright CSS inspection...”
+- `README.md:44` — “Single-site deep inspection workflow: Live CSS and DOM analysis via manual audit.”
+- `README.md:178` — “legacy extraction scripts crawl the reference site...”
+- `plugins/pattern-foundry/skills/pattern-foundry/engine/README.md:7` — “extracted via live manual audit CSS inspection...”
 
 **Impact:**
 - New users may think scraping is part of normal usage.

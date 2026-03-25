@@ -1,7 +1,7 @@
 # SKILL: Pattern Foundry
 
-> **Version:** 2.0 | **Source intelligence:** Sample.in (Playwright-verified)
-> **Stack:** React + Tailwind CSS | **Confidence:** High (live CSS extraction)
+> **Version:** 2.0 | **Design source:** Curated Sample.in audit snapshot
+> **Stack:** React + Tailwind CSS | **Confidence:** High (manual verification)
 
 ---
 

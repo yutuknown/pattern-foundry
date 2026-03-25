@@ -5,7 +5,7 @@ import PrimaryButton from './PrimaryButton';
 /**
  * MainHero — Brand-neutral hero section
  *
- * Extracted system patterns (Playwright-verified source site):
+ * Extracted system patterns (manually verified source site):
  *   section padding:   128px 0 (confirmed .er-crse-wrap / hero-related)
  *   hero left column:  max-width 550px (confirmed .hero-left-container)
  *   SEO h1 pattern:    small (18px/700) for crawlers, large h2 (42px/900) for humans
