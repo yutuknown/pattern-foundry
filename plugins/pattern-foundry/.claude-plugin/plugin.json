@@ -1,0 +1,9 @@
+{
+  "name": "pattern-foundry",
+  "description": "Generate original premium UI systems and page specs using transferable design intelligence",
+  "version": "0.1.0",
+  "author": {
+    "name": "yutuknown"
+  },
+  "license": "MIT"
+}

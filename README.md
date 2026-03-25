@@ -73,11 +73,18 @@ pattern-foundry/
 
 ### Install in Claude Code (2 commands)
 
-Pattern Foundry is currently distributed from GitHub (not as a published Claude plugin marketplace package yet).
+Inside Claude Code, run:
 
-```bash
-git clone https://github.com/yutuknown/pattern-foundry.git && cd pattern-foundry
-claude
+```text
+/plugin marketplace add yutuknown/pattern-foundry
+/plugin install pattern-foundry@pattern-foundry
+```
+
+Then invoke the skill:
+
+```text
+Using pattern-foundry [NEW_BRAND_MODE]:
+...your request...
 ```
 
 ### Local setup
@@ -95,7 +102,7 @@ Use one of these two setups, then run Claude Code.
 **Option A (recommended): run inside this repository**
 
 ```bash
-cd pattern-foundry
+git clone https://github.com/yutuknown/pattern-foundry.git && cd pattern-foundry
 claude
 ```
 

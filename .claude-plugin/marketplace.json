@@ -1,0 +1,23 @@
+{
+  "name": "pattern-foundry",
+  "owner": {
+    "name": "yutuknown"
+  },
+  "metadata": {
+    "description": "Transferable UI/UX design intelligence for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pattern-foundry",
+      "source": "./plugins/pattern-foundry",
+      "description": "Generate original premium UI systems and page specs using Pattern Foundry",
+      "version": "0.1.0",
+      "author": {
+        "name": "yutuknown"
+      },
+      "license": "MIT",
+      "keywords": ["ui", "ux", "design-system", "claude-skill"]
+    }
+  ]
+}
