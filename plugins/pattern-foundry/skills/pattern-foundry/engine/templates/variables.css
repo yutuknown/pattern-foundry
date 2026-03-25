@@ -1,0 +1,84 @@
+:root {
+  /* Colors - Brand */
+  --color-brand-primary: #fe6724;
+  --color-brand-secondary: #193f68;
+  --color-brand-accent: #f0b400;
+  --color-brand-accent-login: #1a73e8;
+
+  /* Colors - Surfaces */
+  --color-surface-primary: #ffffff;
+  --color-surface-secondary: #e9f1fc;
+  --color-surface-tertiary: #eff4f7;
+  --color-surface-hover: #f6fcff;
+
+  /* Colors - Text */
+  --color-text-primary: #111111;
+  --color-text-secondary: #4b5661;
+  --color-text-muted: #86949d;
+  --color-text-heading: #010b24;
+  --color-text-on-brand: #ffffff;
+
+  /* Colors - Borders & Info */
+  --color-border-default: #cacaca;
+  --color-border-info: #a6d8fa;
+
+  /* Gradients */
+  --gradient-feature: linear-gradient(135deg, #ff9a1f 0px, #f97316 100%);
+  --gradient-hero: linear-gradient(90deg, rgb(24, 40, 72) 0%, rgb(5, 43, 80) 100%);
+
+  /* Typography - Families */
+  --font-family-primary: 'Lato', sans-serif;
+  --font-family-secondary: 'Inter', sans-serif;
+  --font-family-serif: 'Georgia', serif;
+
+  /* Typography - Sizes */
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-hero: 42px;
+
+  /* Typography - Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* Radius */
+  --radius-xs: 3px;
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+  --radius-full: 50%;
+
+  /* Shadows */
+  --shadow-subtle: 0px 2px 16px rgba(0,0,0,0.07);
+  --shadow-default: 0px 4px 12px rgba(0,0,0,0.08);
+  --shadow-hover: 0px 10px 30px rgba(0,0,0,0.12);
+  --shadow-ambient: 1px 1px 60px 40px rgba(229,229,229,0.25);
+  --shadow-token: 0px 1.76px 17.64px -1.76px rgba(0,0,0,0.11);
+  --shadow-glow: 0px -2px 50px 0px rgba(0,0,0,0.09);
+
+  /* Motion - Timing */
+  --duration-fast: 0.2s;
+  --duration-standard: 0.3s;
+  --duration-slow: 0.45s;
+  --easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --width-nav: 1440px;
+  --width-content: 1296px;
+  --width-footer: 1100px;
+  --width-hero-left: 550px;
+  --spacing-section: 128px;
+  --nav-height: 82px;
+
+  /* Z-Index */
+  --z-base: 0;
+  --z-docked: 10;
+  --z-sticky: 1000;
+  --z-popover: 1023;
+  --z-modal: 2000;
+}

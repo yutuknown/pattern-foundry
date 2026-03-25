@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "generated": "2026-03-24",
+    "skill_version": "2.0",
+    "extraction_method": "Live Playwright CSS + DOM inspection",
+    "confidence": "high",
+    "pages_inspected": ["homepage", "notes_page", "neet_hub", "exams"],
+    "css_chars_analyzed": 87614,
+    "screenshots_captured": ["homepage_desktop", "homepage_mobile", "neet_hub", "notes_page"]
+  },
+
+  "reference_site_name": "Sample",
+  "reference_domain": "sample.in",
+  "reference_category": "EdTech — Exam Preparation Platform (India)",
+  "reference_business_model": "Freemium (free content + Sample Infinity premium subscription)",
+
+  "page_types": [
+    "Marketing homepage",
+    "Exam category hub (NEET, UPSC, JEE, CAT)",
+    "Content notes page (deep SEO content)",
+    "Course listing",
+    "Test/Quiz listing",
+    "Auth modal (overlay, Google OAuth)",
+    "App download bridge"
+  ],
+
+  "visual_style_keywords": [
+    "Warm-cool balanced",
+    "Consumer friendly",
+    "Mobile-app-native",
+    "Academically credible",
+    "Energetic action color",
+    "Authoritative navy",
+    "Physical hover interactions",
+    "Gradient feature cards",
+    "Content-dense SEO pages"
+  ],
+
+  "ux_keywords": [
+    "Value before gate",
+    "Freemium progressive commitment",
+    "Content-led growth",
+    "Trust signal stacking",
+    "Outcome-first messaging",
+    "Physical hover (lift not glow)",
+    "Breadcrumb wayfinding",
+    "Dark mode for content reading",
+    "App-first with web acquisition"
+  ],
+
+  "verified_tokens": {
+    "primary_action": "rgb(254, 103, 36) = #fe6724 — warm orange",
+    "authority": "rgb(25, 63, 104) = #193f68 — dark navy",
+    "surface": "rgb(233, 241, 252) = #e9f1fc — light blue-tinted",
+    "deep_navy": "rgb(1, 11, 36) = #010b24",
+    "gold": "rgb(240, 180, 0) = #f0b400",
+    "gradient_warm": "linear-gradient(135deg, #ff9a1f 0px, #f97316 100%) — confirmed",
+    "font_primary": "Lato, sans-serif — confirmed with !important",
+    "font_secondary": "Inter, sans-serif",
+    "font_content": "Georgia, Times New Roman, serif",
+    "hero_font_size": "clamp(28px, 4vw, 50px)",
+    "h2_computed": "42px / weight 900 — Playwright verified",
+    "transition_spatial": "0.45s cubic-bezier(0.4, 0, 0.2, 1) — confirmed",
+    "transition_color": "0.2s — confirmed",
+    "hover_transform": "translateY(-3px) — confirmed",
+    "hover_shadow": "rgba(0,0,0,0.12) 0px 10px 30px — confirmed",
+    "card_shadow": "rgba(0,0,0,0.08) 0px 4px 12px — confirmed",
+    "feature_card_radius": "20px — confirmed",
+    "course_card_radius": "32px — confirmed",
+    "nav_height": "82px — Playwright verified",
+    "container_nav": "1440px outer — confirmed",
+    "container_content": "1296px inner (.lp_nav_wrapper) — confirmed",
+    "container_footer": "1100px (.ftr-new-inner) — confirmed",
+    "hero_left_max": "550px (.hero-left-container) — confirmed",
+    "section_padding_large": "128px 0 (.er-crse-wrap) — confirmed",
+    "keyframe_shimmer": "shimmer_lrn — confirmed",
+    "keyframe_marquee": "scroll-left 40s linear infinite — confirmed"
+  },
+
+  "major_components": [
+    "Navbar (82px, sticky, 1440px outer, 1296px inner, white bg)",
+    "Hero section (dark navy gradient, 55/45 split, clamp hero type, trust badge)",
+    "Trust signals (scrolling marquee + 4-stat row with action-color numbers)",
+    "Category browser (pill tag grid, surface bg, hover bg shift)",
+    "Feature cards (gradient warm, radius 20px, hover lift)",
+    "Course cards (white, radius 32px, ambient shadow)",
+    "Stats block (large number + small descriptor, action color)",
+    "Auth modal (Google OAuth primary, z-index 1023)",
+    "Content notes page (ToC sidebar, dark mode toggle, breadcrumbs)",
+    "App download bridge (QR + store badges + phone mockups)",
+    "Footer (surface bg, max-w 1100px, 4-column)"
+  ],
+
+  "transferable_rules": [
+    "Warm action color + cool authority color — role assignment is universal, hues adapt",
+    "Hero heading: clamp(min, Nvw, max) — fluid, never fixed px",
+    "Cards: flat at rest, lifted on hover (translateY(-3px) + shadow increase)",
+    "Bimodal radius: functional=3-8px, display=20-32px, pill=60px",
+    "Section padding: only 2 values per page (compact ~80px, large ~128px)",
+    "Trust before CTA — every CTA cluster has adjacent proof signal",
+    "Trust sequence: volume → authority → quality → risk-reduction",
+    "CTA formula: [Verb] [action] for Free",
+    "3 CTA placements minimum on any long page",
+    "Section backgrounds alternate: white → surface → dark → surface",
+    "Stats display: large bold number + small muted label (never inline)",
+    "Value before gate: 30%+ content visible before login prompt",
+    "Content pages: ToC sidebar + dark mode toggle required",
+    "Transition spatial: 0.45s cubic-bezier(0.4,0,0.2,1)",
+    "Transition color: 0.2s",
+    "All ambient animations: prefers-reduced-motion override required",
+    "Mobile sidebar: accessible alternative (NOT just display:none)",
+    "Google OAuth as primary signup mechanism",
+    "Container widths: 1440px wide / 1296px content / 1100px footer"
+  ],
+
+  "non_copy_boundaries": [
+    "Sample logo, wordmark, brand identity",
+    "Exact primary orange #fe6724",
+    "Y Combinator logo or badge",
+    "Indian exam names (NEET/UPSC/JEE/CAT) unless user requested EdTech",
+    "Specific student count stats (3.2 Crore+)",
+    "Specific rating claims (4.7/5, 150k+ ratings)",
+    "Sample Infinity product name",
+    "Education Revolution tagline",
+    "Exact marketing copy (Stop Wasted Effort Start Scoring More)",
+    "Exact feature names (Exam-Focused Smart Notes, Test Insights)"
+  ],
+
+  "skill_modes": [
+    "NEW_BRAND_MODE — original UI for different brand/industry",
+    "TEMPLATE_MODE — reusable fill-in-blank template",
+    "PAGE_GEN_MODE — specific page for specific product",
+    "SYSTEM_EXPAND_MODE — consistent addition to existing system",
+    "AUDIT_MODE — critique and upgrade weak UI"
+  ],
+
+  "best_use_cases": [
+    "Consumer EdTech product homepages (different geography/audience)",
+    "Mobile app marketing landing pages (freemium)",
+    "SaaS freemium marketing homepages",
+    "Content/documentation reading pages",
+    "Category hub and discovery pages",
+    "Pricing pages with trust-conversion architecture",
+    "SaaS dashboard shells",
+    "Feature-specific landing pages",
+    "Consumer mobile app landing pages with app download bridge",
+    "Audit and upgrade of generic Bootstrap/template sites"
+  ],
+
+  "industry_adaptations": {
+    "b2b_saas": "Indigo/slate palette, smaller radius, trial CTA (not free), denser data",
+    "healthcare": "Teal/calm palette, WCAG AAA, medical authority trust, no aggressive motion",
+    "finance": "Emerald/charcoal, security badges, SOC2 trust, precision radius",
+    "developer_tools": "Purple/zinc, minimal radius, dark mode primary, npm install CTA",
+    "consumer_wellness": "Coral/warm palette, max radius, empathetic copy, minimal statistics",
+    "enterprise": "Slate/navy, SOC2 + ISO badges, demo CTA (not buy), comparison table"
+  },
+
+  "confidence_by_area": {
+    "color_tokens": "high — Playwright computed style extraction",
+    "typography": "high — Playwright font-family + computed font-size",
+    "spacing": "high — confirmed specific classes (.er-crse-wrap = 128px)",
+    "containers": "high — Playwright DOM width inspection",
+    "radii": "high — confirmed .feat-card (20px) and .crses (32px)",
+    "shadows": "high — confirmed via CSS dump and Playwright",
+    "transitions": "high — confirmed cubic-bezier exact value",
+    "nav_height": "high — Playwright inline style (82px)",
+    "hover_transform": "medium-high — inferred from CSS, visual not screenshot-verified",
+    "mobile_layout": "medium — CSS media queries confirmed, rendering inferred",
+    "post_auth_experience": "low — not inspected without account creation",
+    "accessibility_compliance": "medium — structure inferred, no axe/lighthouse audit"
+  },
+
+  "confidence_overall": "high"
+}

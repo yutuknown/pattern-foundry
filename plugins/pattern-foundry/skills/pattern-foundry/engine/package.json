@@ -1,0 +1,27 @@
+{
+  "name": "pattern-foundry",
+  "version": "0.1.0",
+  "description": "A Claude Code skill for extracting transferable UI/UX design DNA from a reference site and reusing it for original brands and templates.",
+  "main": "design-system/tokens.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "design-system",
+    "tokens",
+    "transferable-patterns",
+    "claude-skill",
+    "pattern-foundry"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "files": [
+    "design-system",
+    "docs",
+    "templates",
+    "samples",
+    "scripts"
+  ]
+}
