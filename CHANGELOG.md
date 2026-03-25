@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- None yet.
+
+### Changed
+- None yet.
+
+## [0.2.0] - 2026-03-25
+
+### Added
 - Added `SHIP_UPDATE_GUIDE.md` with step-by-step commands to push, open PR, tag release, and validate plugin installation in Claude Code.
 - Added `scripts/verify_packaged_plugin.py` to assert required engine files exist in the packaged plugin payload.
 - Documented maintainer release sync step in README (`python3 scripts/sync_plugin_engine.py`).
