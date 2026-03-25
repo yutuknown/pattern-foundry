@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <style>
+      .box { fill: #1e293b; stroke: #475569; stroke-width: 2; rx: 12; }
+      .box-highlight { fill: #312e81; stroke: #6366f1; stroke-width: 2; rx: 12; }
+      .text-title { font-family: sans-serif; font-size: 16px; font-weight: 600; fill: #f8fafc; text-anchor: middle; }
+      .text-sub { font-family: sans-serif; font-size: 12px; fill: #94a3b8; text-anchor: middle; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <rect width="1000" height="300" fill="#0f172a" />
+  
+  <!-- Nodes -->
+  <g transform="translate(50, 100)">
+    <rect class="box" width="160" height="80" />
+    <text class="text-title" x="80" y="35">Reference Site</text>
+    <text class="text-sub" x="80" y="55">Live CSS / DOM</text>
+  </g>
+
+  <g transform="translate(260, 100)">
+    <rect class="box" width="160" height="80" />
+    <text class="text-title" x="80" y="35">Extraction Layer</text>
+    <text class="text-sub" x="80" y="55">Playwright Scripts</text>
+  </g>
+
+  <g transform="translate(470, 100)">
+    <rect class="box-highlight" width="160" height="80" />
+    <text class="text-title" x="80" y="35">MASTER.md</text>
+    <text class="text-sub" x="80" y="55">Tokens &amp; Rules</text>
+  </g>
+
+  <g transform="translate(680, 100)">
+    <rect class="box" width="160" height="80" />
+    <text class="text-title" x="80" y="35">Claude Generation</text>
+    <text class="text-sub" x="80" y="55">SKILL.md Prompts</text>
+  </g>
+  
+  <!-- Final Outputs -->
+  <g transform="translate(870, 50)">
+    <rect class="box-highlight" width="110" height="60" />
+    <text class="text-title" x="55" y="25" font-size="14">New Brand UI</text>
+    <text class="text-sub" x="55" y="45" font-size="10">React + Tailwind</text>
+  </g>
+
+  <g transform="translate(870, 150)">
+    <rect class="box-highlight" width="110" height="60" />
+    <text class="text-title" x="55" y="25" font-size="14">Reusable Tpl</text>
+    <text class="text-sub" x="55" y="45" font-size="10">Brand-Neutral</text>
+  </g>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 210 140 L 250 140" />
+  <path class="arrow" d="M 420 140 L 460 140" />
+  <path class="arrow" d="M 630 140 L 670 140" />
+  
+  <path class="arrow" d="M 840 140 L 855 140 L 855 80 L 860 80" />
+  <path class="arrow" d="M 840 140 L 855 140 L 855 180 L 860 180" />
+  
+</svg>

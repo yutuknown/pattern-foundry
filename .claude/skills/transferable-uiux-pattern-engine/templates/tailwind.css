@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-action-primary: #fe6724;
+    --color-authority-primary: #193f68;
+    --color-semantic-gold: #f0b400;
+  }
+
+  body {
+    @apply antialiased font-sans text-[#111111] bg-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-black text-[#010b24] tracking-tight;
+  }
+
+  .font-content {
+    font-family: 'Georgia', serif;
+  }
+}
+
+@layer components {
+  /* Premium Display Card Pattern (e.g. Courses) */
+  .display-card-xl {
+    @apply rounded-[32px] bg-white transition-all duration-200;
+    box-shadow: rgba(229,229,229,0.25) 1px 1px 60px 40px;
+  }
+
+  .display-card-xl:hover {
+    @apply -translate-y-[3px];
+    box-shadow: rgba(0,0,0,0.12) 0px 10px 30px;
+  }
+
+  /* Standard Button Pattern */
+  .btn-standard {
+    @apply h-[40px] px-6 text-sm font-bold transition-all duration-200 rounded-[5px];
+  }
+
+  /* Feature Card Pattern (Gradient) */
+  .feature-card-gradient {
+    @apply rounded-[20px] p-6 text-white transition-all duration-200;
+    background: linear-gradient(135deg, #ff9a1f 0px, #f97316 100%);
+  }
+
+  /* Sticky Navigation Pattern */
+  .navbar-sticky {
+    @apply w-full h-[82px] bg-white border-b border-[#eff4f7] sticky top-0 z-[1000];
+  }
+
+  .navbar-inner {
+    @apply max-w-[1440px] w-full mx-auto px-4 lg:px-8;
+  }
+}
+
+/* Shimmer Animation Pattern */
+@keyframes shimmer_loading {
+  0% { background-position: -468px 0; }
+  100% { background-position: 468px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .display-card-xl:hover {
+    @apply transform-none;
+  }
+}

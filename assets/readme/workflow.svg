@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200">
+  <defs>
+    <style>
+      .circle { fill: #1e1b4b; stroke: #818cf8; stroke-width: 3; }
+      .text-num { font-family: sans-serif; font-size: 24px; font-weight: bold; fill: #818cf8; text-anchor: middle; }
+      .text-title { font-family: sans-serif; font-size: 18px; font-weight: 600; fill: #f8fafc; text-anchor: middle; }
+      .text-sub { font-family: sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: middle; }
+      .line { fill: none; stroke: #334155; stroke-width: 2; stroke-dasharray: 4 4; }
+    </style>
+  </defs>
+  
+  <rect width="1000" height="200" fill="#0f172a" />
+  
+  <path class="line" d="M 150 100 L 850 100" />
+  
+  <!-- Step 1 -->
+  <g transform="translate(150, 100)">
+    <circle class="circle" cx="0" cy="0" r="30" />
+    <text class="text-num" x="0" y="8">1</text>
+    <text class="text-title" x="0" y="55">Inspect</text>
+    <text class="text-sub" x="0" y="75">Crawl site &amp; DOM</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(383, 100)">
+    <circle class="circle" cx="0" cy="0" r="30" />
+    <text class="text-num" x="0" y="8">2</text>
+    <text class="text-title" x="0" y="55">Extract</text>
+    <text class="text-sub" x="0" y="75">Parse raw tokens</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(616, 100)">
+    <circle class="circle" cx="0" cy="0" r="30" />
+    <text class="text-num" x="0" y="8">3</text>
+    <text class="text-title" x="0" y="55">Abstract</text>
+    <text class="text-sub" x="0" y="75">Define rules</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(850, 100)">
+    <circle class="circle" cx="0" cy="0" r="30" />
+    <text class="text-num" x="0" y="8">4</text>
+    <text class="text-title" x="0" y="55">Generate</text>
+    <text class="text-sub" x="0" y="75">Build new UI</text>
+  </g>
+</svg>
