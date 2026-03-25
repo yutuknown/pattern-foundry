@@ -67,50 +67,86 @@ pattern-foundry/
 ## Installation
 
 ### Prerequisites
-- [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) installed and authenticated.
+- [Claude Code](https://code.claude.com/docs/en/overview) installed and authenticated.
 - Python 3.9+ (if running extraction scripts).
-- Playwright (if running extraction scripts: `pip install playwright && playwright install`).
+- Playwright (if running extraction scripts).
+
+### Install in Claude Code (2 commands)
+
+Pattern Foundry is currently distributed from GitHub (not as a published Claude plugin marketplace package yet).
+
+```bash
+git clone https://github.com/yutuknown/pattern-foundry.git && cd pattern-foundry
+claude
+```
 
 ### Local setup
 
 ```bash
-git clone https://github.com/yutuknown/pattern-foundry.git
-cd pattern-foundry
-
 # (Optional) If you want to run extraction scripts:
-pip install -r requirements.txt
-playwright install chromium
+python -m pip install playwright
+python -m playwright install chromium
 ```
 
 ### How to use the skill in Claude Code
 
-Open your terminal in the repository root (or copy the `.claude/skills` folder to your project) and start Claude Code:
+Use one of these two setups, then run Claude Code.
+
+**Option A (recommended): run inside this repository**
+
+```bash
+cd pattern-foundry
+claude
+```
+
+**Option B: use the skill in another project**
+
+Copy this folder into your project at `.claude/skills/`:
+
+`pattern-foundry/.claude/skills/transferable-uiux-pattern-engine`
+
+Then run:
 
 ```bash
 claude
 ```
 
-## Quick start
+Once Claude Code starts, invoke the skill by naming it in your prompt with a mode:
 
-You can invoke the skill inside Claude Code by explicitly naming it and selecting a mode.
-
-**Example 1: Generate a new site for a different brand**
 ```text
 Using pattern-foundry [NEW_BRAND_MODE]:
-Brand: Synthflow — AI-powered customer interview platform
+...your request...
+```
+
+## Quick start
+
+Use this 3-step flow in Claude Code:
+
+1. Pick a mode based on your goal:
+  - `NEW_BRAND_MODE` for generating a fresh site/system.
+  - `AUDIT_MODE` for reviewing and upgrading existing UI.
+2. Start your message with `Using pattern-foundry [MODE]:`.
+3. Provide the required context (brand, audience, stack, output format).
+
+Ready-to-copy prompts:
+
+```text
+Using pattern-foundry [NEW_BRAND_MODE]:
+Brand: Synthflow
 Industry: B2B SaaS
 Audience: Product managers
 Tone: Professional but approachable
-Palette: Deep purple authority + warm coral action
+Palette: Deep authority + warm action
 Stack: Next.js + Tailwind CSS
 Generate: Complete homepage spec + React component breakdown
 ```
 
-**Example 2: Audit existing UI**
 ```text
 Using pattern-foundry [AUDIT_MODE]:
-[Paste your existing UI code here]
-Score it on all 10 dimensions. List top 5 issues by impact. Provide upgraded spec.
+[Paste your existing UI code or page spec]
+Score it on all 10 dimensions.
+List top 5 issues by impact.
+Provide an upgraded spec.
 ```
 
 ## How it works
@@ -178,13 +214,7 @@ We welcome contributions!
 
 ## Star History
 
-<a href="https://star-history.com/#yutuknown/pattern-foundry&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date)](https://star-history.com/#yutuknown/pattern-foundry&Date)
 
 ## Roadmap
 
@@ -195,7 +225,7 @@ We welcome contributions!
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, development process, and pull request guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, development flow, and review standards.
 
 ## License
 
@@ -203,5 +233,5 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct
 
 ## Acknowledgements
 
-- Built with [Claude Code](https://docs.anthropic.com/claude/docs/claude-code).
+- Built with [Claude Code](https://code.claude.com/docs/en/overview).
 - Extraction layer powered by [Playwright](https://playwright.dev/).
