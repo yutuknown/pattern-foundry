@@ -73,10 +73,10 @@ pattern-foundry/
 
 ### Install in Claude Code (2 commands)
 
-Inside Claude Code, run:
+Inside Claude Code, run these one at a time:
 
 ```text
-/plugin marketplace add yutuknown/pattern-foundry
+/plugin marketplace add https://github.com/yutuknown/pattern-foundry.git
 /plugin install pattern-foundry@pattern-foundry
 ```
 
