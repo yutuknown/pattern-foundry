@@ -10,10 +10,10 @@
   </p>
 
   <p>
-    <a href="https://github.com/nooaeclipse/pattern-foundry/stargazers"><img src="https://img.shields.io/github/stars/nooaeclipse/pattern-foundry?style=for-the-badge&color=eab308" alt="Stars" /></a>
-    <a href="https://github.com/nooaeclipse/pattern-foundry/network/members"><img src="https://img.shields.io/github/forks/nooaeclipse/pattern-foundry?style=for-the-badge&color=3b82f6" alt="Forks" /></a>
-    <a href="https://github.com/nooaeclipse/pattern-foundry/releases"><img src="https://img.shields.io/github/v/release/nooaeclipse/pattern-foundry?style=for-the-badge&color=22c55e" alt="Release" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/nooaeclipse/pattern-foundry?style=for-the-badge" alt="License" /></a>
+    <a href="https://github.com/yutuknown/pattern-foundry/stargazers"><img src="https://img.shields.io/github/stars/yutuknown/pattern-foundry?style=for-the-badge&color=eab308" alt="Stars" /></a>
+    <a href="https://github.com/yutuknown/pattern-foundry/network/members"><img src="https://img.shields.io/github/forks/yutuknown/pattern-foundry?style=for-the-badge&color=3b82f6" alt="Forks" /></a>
+    <a href="https://github.com/yutuknown/pattern-foundry/releases"><img src="https://img.shields.io/github/v/release/yutuknown/pattern-foundry?style=for-the-badge&color=22c55e" alt="Release" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/yutuknown/pattern-foundry?style=for-the-badge" alt="License" /></a>
   </p>
 </div>
 
@@ -74,7 +74,7 @@ pattern-foundry/
 ### Local setup
 
 ```bash
-git clone https://github.com/nooaeclipse/pattern-foundry.git
+git clone https://github.com/yutuknown/pattern-foundry.git
 cd pattern-foundry
 
 # (Optional) If you want to run extraction scripts:
@@ -170,19 +170,19 @@ Using the extracted quality system, build the full token set:
 
 We welcome contributions! 
 
-<a href="https://github.com/nooaeclipse/pattern-foundry/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nooaeclipse/pattern-foundry" />
+<a href="https://github.com/yutuknown/pattern-foundry/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yutuknown/pattern-foundry" />
 </a>
 
 *Looking to get involved? Read our [CONTRIBUTING.md](CONTRIBUTING.md).*
 
 ## Star History
 
-<a href="https://star-history.com/#nooaeclipse/pattern-foundry&Date">
+<a href="https://star-history.com/#yutuknown/pattern-foundry&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=nooaeclipse/pattern-foundry&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=nooaeclipse/pattern-foundry&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=nooaeclipse/pattern-foundry&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date" />
   </picture>
 </a>
 
