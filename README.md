@@ -214,7 +214,7 @@ We welcome contributions!
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yutuknown/pattern-foundry&type=Date)](https://star-history.com/#yutuknown/pattern-foundry&Date)
+[![Star History](https://starchart.cc/yutuknown/pattern-foundry.svg)](https://starchart.cc/yutuknown/pattern-foundry)
 
 ## Roadmap
 
