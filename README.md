@@ -55,14 +55,21 @@ pattern-foundry/
 ├── .claude/skills/transferable-uiux-pattern-engine/   # Source-of-truth engine (edit here)
 ├── plugins/pattern-foundry/skills/pattern-foundry/    # Packaged plugin payload (synced)
 ├── docs/
-│   ├── audits/          # Audit reports
+│   ├── audits/          # Audit reports + rescan history
 │   └── releases/        # Release notes, checklist, ship guide
 ├── scripts/             # Sync/verify automation
 ├── data/
 │   ├── raw/             # Raw Playwright extraction JSONs (gitignored)
 │   └── screenshots/     # Reference site visual captures
-└── assets/              # README visuals
+└── assets/readme/       # Banner + workflow diagrams used below
 ```
+
+### Release documentation
+
+- [Release notes](docs/releases/release-notes/) — historical changelog details.
+- [Release checklist](docs/releases/release-checklist.md) — reset for each release to avoid skipping steps.
+- [Ship update guide](docs/releases/SHIP_UPDATE_GUIDE.md) — commands for syncing, tagging, and validating installs.
+- [Audit reports](docs/audits/) — most recent audits and rescan status.
 
 ## Installation
 
