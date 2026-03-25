@@ -5,15 +5,15 @@
   },
   "metadata": {
     "description": "Transferable UI/UX design intelligence for Claude Code",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "pattern-foundry",
       "source": "./plugins/pattern-foundry",
       "description": "Generate original premium UI systems and page specs using Pattern Foundry",
-      "version": "0.2.0",
-      "author": {
+      "version": "0.2.1",
+"author": {
         "name": "yutuknown"
       },
       "license": "MIT",

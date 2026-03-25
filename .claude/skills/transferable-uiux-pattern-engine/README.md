@@ -39,4 +39,4 @@ The `docs/` folder contains specific implementation notes for Tailwind CSS, allo
 
 ---
 **Verified Data Source:** Playwright Live Inspection (2026-03-24)
-**Engine Version:** 0.2.0
+**Engine Version:** 0.2.1
