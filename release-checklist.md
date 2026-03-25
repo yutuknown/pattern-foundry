@@ -1,6 +1,6 @@
-﻿# Release Checklist: v0.1.0
+# Release Checklist: v0.1.1
 
-This checklist ensures that all repositories, documentation, and metadata are ready for the public OSS launch of Pattern Foundry.
+This checklist ensures that all repositories, documentation, and metadata are ready for the public OSS launch and follow-up patch release cycle of Pattern Foundry.
 
 ## Pre-Release
 
@@ -13,9 +13,10 @@ This checklist ensures that all repositories, documentation, and metadata are re
 
 ## Launch
 
-- [x] Create a GitHub Release referencing `release-notes/v0.1.0.md`.
-- [x] Publish the release and verify the associated Git tag (e.g., `v0.1.0`).
+- [x] Create a GitHub Release referencing `release-notes/v0.1.1.md`.
+- [x] Publish the release and verify the associated Git tag (`v0.1.1`).
 - [x] Update the repository "About" section, website URL, and tags (topics) on GitHub.
+- [x] Confirm the latest release is **v0.1.1** and all launch items are completed.
 
 ## Post-Release
 
