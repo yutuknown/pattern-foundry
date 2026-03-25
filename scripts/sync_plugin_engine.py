@@ -17,6 +17,7 @@ TARGET = ROOT / 'plugins' / 'pattern-foundry' / 'skills' / 'pattern-foundry' / '
 
 EXCLUDE_NAMES = {
     '__pycache__',
+    'SKILL.md',
 }
 
 
