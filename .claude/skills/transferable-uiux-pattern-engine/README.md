@@ -4,7 +4,7 @@
 
 ## What This Is
 
-A user-adaptive, brand-neutral UI/UX generation engine trained on design intelligence extracted via live Playwright CSS inspection from a high-quality consumer EdTech product. It extracts the *quality system* — spacing discipline, component grammar, conversion architecture, interaction model — and applies that system to generate **original work** for entirely different brands and industries.
+A user-adaptive, brand-neutral UI/UX generation engine based on extracted design intelligence. Marketplace usage is prompt-first and runs from bundled local references by default. It extracts the *quality system* — spacing discipline, component grammar, conversion architecture, interaction model — and applies that system to generate **original work** for entirely different brands and industries.
 
 **The difference:** This skill makes you understand design principles, then generate something new at the same quality level — not copy the source.
 
@@ -32,11 +32,11 @@ transferable-uiux-pattern-engine/
 ```
 
 ## How to Use This Skill
-This engine is designed to be **transferable**. You can use the `tokens.json` file to bootstrap a new project with Sample's high-performance design primitives, or follow the documentation in `docs/` to recreate the "Sample Feel" in any modern web framework (Tailwind, Framer Motion, etc.).
+This engine is designed to be **transferable**. You can use the `tokens.json` file to bootstrap a new project with high-performance design primitives, then adapt them to your own brand identity in any modern web framework (Tailwind, Framer Motion, etc.).
 
 ### Example: Tailwind Integration
 The `docs/` folder contains specific implementation notes for Tailwind CSS, allowing you to quickly map these verified styles to a modern utility-first workflow.
 
 ---
 **Verified Data Source:** Playwright Live Inspection (2026-03-24)
-**Engine Version:** 1.0.0
+**Engine Version:** 0.2.0

@@ -17,10 +17,15 @@ We welcome contributions in the following areas:
 2. Ensure you have Python 3.9+ installed.
 3. Install Playwright dependencies if you are modifying extraction scripts:
    ```bash
-   pip install -r requirements.txt
-   playwright install chromium
+   python -m pip install playwright
+   python -m playwright install chromium
    ```
 4. Install and authenticate [Claude Code](https://docs.anthropic.com/claude/docs/claude-code).
+5. Treat `.claude/skills/transferable-uiux-pattern-engine/` as the source of truth. If you change engine assets, run:
+   ```bash
+   python3 scripts/sync_plugin_engine.py
+   python3 scripts/verify_packaged_plugin.py
+   ```
 
 ## Branch Naming Convention
 

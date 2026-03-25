@@ -7,6 +7,7 @@ Use this checklist to publish the changes from your local branch to the real Git
 ```bash
 git checkout work
 git log --oneline -n 5
+python3 scripts/sync_plugin_engine.py
 python3 scripts/verify_packaged_plugin.py
 ```
 
@@ -44,13 +45,13 @@ After PR merge:
 ```bash
 git checkout master
 git pull origin master
-git tag -a v0.1.2 -m "Bundle packaged engine + add release verification"
-git push origin v0.1.2
+git tag -a v0.2.0 -m "Bundle packaged engine + add release verification"
+git push origin v0.2.0
 ```
 
 ## 6) Create GitHub Release notes
 
-In GitHub Releases, draft `v0.1.2` and include:
+In GitHub Releases, draft `v0.2.0` and include:
 - packaged engine added under `plugins/pattern-foundry/skills/pattern-foundry/engine/`
 - `scripts/sync_plugin_engine.py`
 - `scripts/verify_packaged_plugin.py`

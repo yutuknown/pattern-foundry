@@ -41,7 +41,7 @@ Instead of copying colors and logos, this skill extracts the *quality system*—
   <img src="assets/readme/architecture.svg" alt="Architecture Diagram" width="80%" />
 </div>
 
-- **Single-site deep inspection workflow:** Live CSS and DOM analysis via Playwright.
+- **Prompt-first generation workflow:** Marketplace installs generate from bundled local references by default (no live crawling).
 - **Design-system persistence:** Leverages `MASTER.md` for global rules and `pages/*.md` for precise, minimal overrides.
 - **Brand adaptation rules:** Shifts temperature, density, and tone to fit new industries (B2B, Healthcare, Fintech, etc.).
 - **Anti-copy guardrails:** Strictly enforces originality to prevent source-brand leakage.
@@ -52,12 +52,12 @@ Instead of copying colors and logos, this skill extracts the *quality system*—
 
 ```text
 pattern-foundry/
-├── .claude/skills/transferable-uiux-pattern-engine/
-│   ├── design-system/   # MASTER.md and page-specific overrides
-│   ├── docs/            # Deep analysis documents (UX, UI, Accessibility)
-│   ├── samples/         # React components & generated page specs
-│   ├── scripts/         # Python automation for token extraction
-│   └── templates/       # Tailwind, PostCSS, and Framer Motion defaults
+├── .claude/skills/transferable-uiux-pattern-engine/   # Source-of-truth engine (edit here)
+├── plugins/pattern-foundry/skills/pattern-foundry/    # Packaged plugin payload (synced)
+├── docs/
+│   ├── audits/          # Audit reports
+│   └── releases/        # Release notes, checklist, ship guide
+├── scripts/             # Sync/verify automation
 ├── data/
 │   ├── raw/             # Raw Playwright extraction JSONs (gitignored)
 │   └── screenshots/     # Reference site visual captures
@@ -97,7 +97,7 @@ python -m playwright install chromium
 
 ### Maintainer packaging sync (marketplace)
 
-Before cutting a plugin release, sync the full engine into the packaged plugin payload:
+Before cutting a plugin release, sync the full engine into the packaged plugin payload (the packaged plugin version is `0.2.x`, while the internal engine schema currently reports `2.0`; always keep them aligned during releases):
 
 ```bash
 python3 scripts/sync_plugin_engine.py
@@ -175,10 +175,10 @@ Provide an upgraded spec.
   <img src="assets/readme/workflow.svg" alt="Workflow Diagram" width="100%" />
 </div>
 
-1. **Inspect:** Playwright scripts crawl the reference site, capturing computed styles, responsive behavior, and DOM hierarchy.
-2. **Extract:** Raw CSS is parsed into token frequency maps, grouping values by their semantic roles.
-3. **Abstract:** The system defines transferable rules (e.g., "Hover states must lift physically using `translateY(-3px)`" instead of "Use orange buttons").
-4. **Generate:** Claude utilizes `SKILL.md` and the `MASTER.md` memory system to enforce the extracted rules on fresh prompts.
+1. **Load bundled references (default):** Claude reads packaged mode contracts and design-system files shipped with the plugin.
+2. **Abstract:** The system applies transferable rules (e.g., "Hover states must lift physically using `translateY(-3px)`" instead of fixed brand styling).
+3. **Generate:** Claude uses `SKILL.md` + `MASTER.md` guidance to produce original outputs for your target brand.
+4. **Maintain (maintainers only):** Optional Playwright extraction scripts can refresh source intelligence before a release sync.
 
 ## Use cases
 
@@ -247,7 +247,7 @@ We welcome contributions!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, development flow, and review standards.
 
-To publish marketplace-ready changes, follow [SHIP_UPDATE_GUIDE.md](SHIP_UPDATE_GUIDE.md).
+To publish marketplace-ready changes, follow [SHIP_UPDATE_GUIDE.md](docs/releases/SHIP_UPDATE_GUIDE.md).
 
 ## License
 

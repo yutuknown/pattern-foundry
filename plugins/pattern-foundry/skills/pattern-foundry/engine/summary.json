@@ -9,10 +9,10 @@
     "screenshots_captured": ["homepage_desktop", "homepage_mobile", "neet_hub", "notes_page"]
   },
 
-  "reference_site_name": "Sample",
-  "reference_domain": "sample.in",
-  "reference_category": "EdTech — Exam Preparation Platform (India)",
-  "reference_business_model": "Freemium (free content + Sample Infinity premium subscription)",
+  "reference_site_name": "Reference brand (redacted)",
+  "reference_domain": "redacted.example",
+  "reference_category": "EdTech — Exam Preparation Platform",
+  "reference_business_model": "Freemium (free content + premium subscription)",
 
   "page_types": [
     "Marketing homepage",
@@ -114,13 +114,13 @@
   ],
 
   "non_copy_boundaries": [
-    "Sample logo, wordmark, brand identity",
+    "Reference-site logo, wordmark, brand identity",
     "Exact primary orange #fe6724",
     "Y Combinator logo or badge",
     "Indian exam names (NEET/UPSC/JEE/CAT) unless user requested EdTech",
     "Specific student count stats (3.2 Crore+)",
     "Specific rating claims (4.7/5, 150k+ ratings)",
-    "Sample Infinity product name",
+    "Reference premium product name",
     "Education Revolution tagline",
     "Exact marketing copy (Stop Wasted Effort Start Scoring More)",
     "Exact feature names (Exam-Focused Smart Notes, Test Insights)"
