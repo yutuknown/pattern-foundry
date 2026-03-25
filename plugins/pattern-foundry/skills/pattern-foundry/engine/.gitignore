@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Node (if samples/ gets npm install'd)
+samples/react/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

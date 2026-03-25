@@ -95,6 +95,19 @@ python -m pip install playwright
 python -m playwright install chromium
 ```
 
+### Maintainer packaging sync (marketplace)
+
+Before cutting a plugin release, sync the full engine into the packaged plugin payload:
+
+```bash
+python3 scripts/sync_plugin_engine.py
+python3 scripts/verify_packaged_plugin.py
+```
+
+This copies `.claude/skills/transferable-uiux-pattern-engine/` into
+`plugins/pattern-foundry/skills/pattern-foundry/engine/` and verifies required packaged files exist.
+
+
 ### How to use the skill in Claude Code
 
 Use one of these two setups, then run Claude Code.
@@ -234,6 +247,8 @@ We welcome contributions!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, development flow, and review standards.
 
+To publish marketplace-ready changes, follow [SHIP_UPDATE_GUIDE.md](SHIP_UPDATE_GUIDE.md).
+
 ## License
 
 [MIT License](LICENSE) - See the LICENSE file for details.
@@ -242,3 +257,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, development 
 
 - Built with [Claude Code](https://code.claude.com/docs/en/overview).
 - Extraction layer powered by [Playwright](https://playwright.dev/).
+- Inspired by [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), adapted for a single-site transfer-learning workflow.
